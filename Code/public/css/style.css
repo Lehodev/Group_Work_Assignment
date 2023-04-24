@@ -1,0 +1,131 @@
+.menu {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+}
+
+h1{
+  font-family: Bernard MT;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+  text-shadow: 1px 1px 2px white, 0 0 25px white, 0 0 5px white;
+}
+
+h2{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color: #ffc107;
+  text-shadow: 1px 1px 2px black, 0 0 25px navajowhite, 0 0 5px black;
+}
+
+h4{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #ffc107;
+  text-shadow: 1px 1px 2px black, 0 0 25px navajowhite, 0 0 5px black;
+}
+
+body{
+	background: url(../images/background.jpg);
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menubutton {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #DAA520;
+  border: none;
+  color: #000000;
+  text-align: center;
+  font-size: 15px;
+  padding: 8px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.menubutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.menubutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -25px;
+  transition: 0.5s;
+}
+
+.menubutton:hover span {
+  padding-right: 30px;
+}
+
+.menubutton:hover span:after {
+  opacity: 2;
+  right: 0;
+}
+
+.szoveg{
+	font-family: Cambria Math;
+	color: white;
+	font-size: 18px;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.keszitok{
+	text-decoration: underline;
+	font-weight: bold;
+	color: wheat;
+	font-size: 25px;
+  text-shadow: 1px 1px 2px black, 0 0 25px grey, 0 0 5px black;
+}
+
+.contributors{
+  font-family: Bookman Old Style;
+  font-size: 20px;
+  text-align: center;
+  color: #212529;
+  text-shadow: 1px 1px 2px gray, 0 0 25px black, 0 0 5px grey;
+}
+
+.fooldalszoveg{
+  font-family:fantasy ;
+  font-size: 20px;
+  text-align: center;
+  color: #212529;
+  text-shadow: 1px 1px 2px gray, 0 0 25px black, 0 0 5px grey;
+}
+
+.elerhetoseg{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  font-size: 30px;
+  text-align: center;
+  color: whitesmoke;
+  border-style: solid;
+  border-color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px black, 0 0 5px black;
+}
+
+.name{
+	text-align: right;
+}
+
+.User{
+	width: 20px;
+	height: 20px;
+}
